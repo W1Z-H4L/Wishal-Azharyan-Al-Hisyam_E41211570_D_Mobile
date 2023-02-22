@@ -13,7 +13,7 @@
         android:layout_height="50dp"
         android:layout_marginBottom="50dp"
         android:foregroundGravity="center"
-        app:cardBackgroundColor="@color/material_dynamic_primary60"
+        app:cardBackgroundColor="@color/teal_700"
         app:cardCornerRadius="15dp"
         app:cardMaxElevation="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -47,7 +47,7 @@
             android:layout_marginBottom="200dp"
 
             android:foregroundGravity="center"
-            app:cardBackgroundColor="@color/material_dynamic_primary60"
+            app:cardBackgroundColor="@color/teal_700"
             app:cardCornerRadius="25dp"
             app:cardMaxElevation="210dp"
 

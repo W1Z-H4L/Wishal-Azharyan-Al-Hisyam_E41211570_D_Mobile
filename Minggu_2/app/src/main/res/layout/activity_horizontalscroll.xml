@@ -14,51 +14,61 @@
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:text="Button One"></Button>
         <Button
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:text="Button Two"></Button>
         <Button
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:text="Button Three"></Button>
         <Button
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:text="Button Four"></Button>
         <Button
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:text="Button Five"></Button>
         <Button
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:text="Button Six"></Button>
         <Button
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:text="Button Seven"></Button>
         <Button
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:text="Button Eight"></Button>
         <Button
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:text="Button Nine"></Button>
         <Button
             android:layout_marginLeft="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:background="@color/teal_200"
             android:text="Button Ten"></Button>
     </LinearLayout>
 
