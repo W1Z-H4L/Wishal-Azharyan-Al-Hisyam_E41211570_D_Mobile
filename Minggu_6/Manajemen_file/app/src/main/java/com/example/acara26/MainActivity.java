@@ -32,15 +32,15 @@ private int STORAGE_PERMISSION_CODE = 23;
         ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, STORAGE_PERMISSION_CODE);
         String info = editText.getText().toString();
         File folder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-        File myFile = new File(folder, "MyData1.txt");
-        writeData(myFile, info);
+        File myfile = new File(folder, "MyData1.txt");
+        writeData(myfile, info);
         editText.setText("");
     }
     public void savePrivate(View view){
         String info = editText.getText().toString();
         File folder = getExternalFilesDir("wishal");
-        File myFile = new File(folder, "myData2.txt");
-        writeData(myFile, info);
+        File myfile = new File(folder, "myData2.txt");
+        writeData(myfile, info);
         editText.setText("");
     }
 
@@ -49,6 +49,7 @@ private int STORAGE_PERMISSION_CODE = 23;
         try {
             System.out.println("TES");
             fileOutputStream = new FileOutputStream(myfile);
+            Toast.makeText(this, "Done" + myfile.getAbsolutePath(), Toast.LENGTH_LONG).show();
             fileOutputStream.write(data.getBytes());
         } catch (Exception e) {
             e.printStackTrace();

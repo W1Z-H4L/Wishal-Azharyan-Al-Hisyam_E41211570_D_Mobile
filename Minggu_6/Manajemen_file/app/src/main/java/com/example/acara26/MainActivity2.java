@@ -26,8 +26,8 @@ public class MainActivity2 extends AppCompatActivity {
     }
     public void getPublic(View view) {
        File folder = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS);
-       File myFile = new File(folder, "myData1.txt");
-       String text = getData(myFile);
+       File myfile = new File(folder, "myData1.txt");
+       String text = getData(myfile);
        if (text != null) {
            showText.setText(text);
        }else{
@@ -37,8 +37,8 @@ public class MainActivity2 extends AppCompatActivity {
     public void getPrivate(View view){
 
         File folder = getExternalFilesDir("wishal");
-        File myFile = new File(folder, "myData2.txt");
-        String text = getData(myFile);
+        File myfile = new File(folder, "myData2.txt");
+        String text = getData(myfile);
         if (text != null) {
             showText.setText(text);
         }else {
@@ -55,6 +55,7 @@ public class MainActivity2 extends AppCompatActivity {
             while ((i = fileInputStream.read()) != -1) {
                 buffer.append((char) i);
             }
+            return buffer.toString();
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
