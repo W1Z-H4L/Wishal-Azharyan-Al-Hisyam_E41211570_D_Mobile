@@ -35,12 +35,12 @@ public class register extends AppCompatActivity{
                 String password = etPassword.getText().toString().trim();
 
                 if (username.isEmpty() || password.isEmpty()) {
-                    Toast.makeText(register.this, "Isi Dulu ngabbb!!!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(register.this, "Isi Dulu Guys!!!", Toast.LENGTH_SHORT).show();
                 } else {
                     DataHelper dataHelper = new DataHelper(register.this);
                     dataHelper.addUser(username, password);
 
-                    Toast.makeText(register.this, "Makasih Sudah Daftar Maszehh", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(register.this, "Terima Kasih Telah Mendaftar", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(register.this, login.class);
                     startActivity(intent);
                 }

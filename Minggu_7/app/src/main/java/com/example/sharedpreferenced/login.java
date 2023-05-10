@@ -39,7 +39,7 @@ public class login extends AppCompatActivity {
                 String password = etPassword.getText().toString().trim();
 
                 if (username.isEmpty() || password.isEmpty()) {
-                    Toast.makeText(login.this, "Isi Dulu Ngabbb!!!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(login.this, "Isi Dulu Guys!!!", Toast.LENGTH_SHORT).show();
                 } else {
                     DataHelper dataHelper = new DataHelper(login.this);
                     if (dataHelper.checkUser(username, password)) {
@@ -49,7 +49,7 @@ public class login extends AppCompatActivity {
                         startActivity(intent);
                         finish();
                     } else {
-                        Toast.makeText(login.this, "Daftar Dulu Boss!!!", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(login.this, "Daftar Dulu Guys!!!", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
